@@ -29,4 +29,5 @@ jobs:
           git pull origin master
           git status
           npm install
+          forever stopall
           forever start .
