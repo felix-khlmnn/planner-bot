@@ -29,5 +29,6 @@ jobs:
           git pull origin master
           git status
           npm install
+          npm prune
           forever stopall
           forever start .
